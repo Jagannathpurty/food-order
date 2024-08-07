@@ -9,10 +9,10 @@ import Contact from './pages/Contact';
 import Pagenotfound from './pages/Pagenotfound';
 function App() {
   return (
-   <BrowserRouter basename='/Resturant-Website-React-js' >
+   <BrowserRouter  >
    <Routes>
     {/* <Route  path='' element={<Layout/>} /> */}
-    <Route exact path='/Resturant-Website-React-js'  element={<Home/>} />
+    <Route exact path='/'  element={<Home/>} />
     <Route path='menu'  element={<Menu/>} />
     <Route path='about'  element={<About/>} />
     <Route path='contact'  element={<Contact/>} />
