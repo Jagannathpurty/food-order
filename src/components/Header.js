@@ -36,7 +36,7 @@ function Header() {
       <ul class="mobile-navigation">
         <li>
           {" "}
-          <Link to={"/"}>Home</Link>{" "}
+          <Link to={"/Resturant-Website-React-js"}>Home</Link>{" "}
         </li>
         <li>
           {" "}
